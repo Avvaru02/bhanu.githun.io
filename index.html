@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Avvaru Bhanukoteswararao Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Avvaru Bhanukoteswararao</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	        
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Avvaru Bhanukoteswararao</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Data Analysis  ',
+						'Business Analysis  ',
+						
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>Data Analyst</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			        
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/PHOTO_1 (1)-modified.png" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Avvaru Bhanukoteswararao</span></p>
+										<p><span class="title-s">Job Role: </span> <span>Data Analyst</span></p>
+										<p><span class="title-s">Experience: </span> <span>3 Years 5 Months</span></p>
+										<p><span class="title-s">Address: </span> <span>Hyderabad, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>SQL</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>PYTHON</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Data Visualization</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Statistical Analysis</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Machine Learning</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>With over 5+ years of comprehensive experience in the field of data science & analytics, accompanied by a bachelor's degree in engineering. 
+									Proficient in data analysis, statistical analysis, hypothesis testing, customer behaviour analysis, &amp; machine learning. 
+									Demonstrated success in leading impactful projects and providing effective mentorship.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Business &amp; Analytics</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce, BFSI &amp; Digital Marketing</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Bachelor of Technology</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
+									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Looker &amp; Tableau</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Excel, Git, Microsoft 365, Google Analytics &amp; SEO</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Teaching,Research </span></li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="20">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/avvarubhanukoteswararao/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>Seasoned Data Analyst with 3+ years of experience driving business strategies through data-driven insights. Proven expertise in data science, statistical analysis, machine learning algorithms and project management.</p>
+          </div>
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<!-- Experience Section -->
+<div class="row">
+
+    <!-- Business Analyst Intern -->
+    <div class="col-md-6">
+        <div class="resume-wrap ftco-animate">
+            <span class="date">2021 Jan - 2021 June</span>
+
+            <h2>Business Analyst Intern</h2>
+
+            <span class="position">The Gateway Hotel</span>
+
+            <p class="mt-4">
+                The Gateway Hotels and Resorts offer modern travelers a
+                contemporary experience that aligns with their dynamic lifestyles.
+            </p>
+
+            <ul>
+                <li>
+                    Analyzed advertising campaigns, clickstream data, and customer
+                    surveys to identify factors driving hotel bookings and reduce
+                    cancellation rates.
+                </li>
+
+                <li>
+                    Collected, cleaned, and validated booking data to ensure
+                    accuracy and consistency. Developed predictive models to
+                    forecast cancellations and identify key influencing factors.
+                </li>
+
+                <li>
+                    Derived actionable insights from customer and booking data
+                    to improve hotel booking strategies and overall management
+                    efficiency.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Data Analyst - Randstad / NVIDIA -->
+    <div class="col-md-6">
+        <div class="resume-wrap ftco-animate">
+            <span class="date">2021 June - 2024 Nov</span>
+
+            <h2>Data Analyst</h2>
+
+            <span class="position">RANDSTAD - Client: NVIDIA</span>
+
+            <p class="mt-4">
+                Built data and reporting infrastructure using Power BI and SQL
+                to provide actionable insights into business KPIs and performance.
+            </p>
+
+            <ul>
+                <li>
+                    Designed and developed analytical dashboards using Power BI
+                    to visualize trends in credit card usage, customer
+                    demographics, and revenue performance.
+                </li>
+
+                <li>
+                    Built profit and sales dashboards presenting country-wise
+                    and item-wise performance metrics, including revenue,
+                    total items sold, and seller contributions.
+                </li>
+
+                <li>
+                    Delivered training and mentorship sessions on analytical
+                    tools including SQL, MS Excel, Power BI, Tableau, and Python.
+                </li>
+
+                <li>
+                    Collaborated with product managers to derive marketing
+                    insights, document business processes, and improve reporting
+                    requirements.
+                </li>
+
+                <li>
+                    Updated dashboards with weekly and monthly reports,
+                    validated partner data, and coordinated with vendors to
+                    ensure data accuracy and timely reporting.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Axis Bank -->
+    <div class="col-md-6">
+        <div class="resume-wrap ftco-animate">
+            <span class="date">2025 Nov - 2026 Apr</span>
+
+            <h2>Cluster Level MIS Analyst</h2>
+
+            <span class="position">AXIS BANK LTD.</span>
+
+            <p class="mt-4">
+                Managed MIS reporting and data analysis activities at the
+                cluster level, supporting business performance tracking and
+                management decision-making.
+            </p>
+
+            <ul>
+                <li>
+                    Prepared and maintained daily, weekly, and monthly MIS
+                    reports covering branch-wise business performance, sales,
+                    targets, and key operational metrics.
+                </li>
+
+                <li>
+                    Consolidated data from multiple branches and analyzed
+                    performance against assigned targets to identify gaps,
+                    trends, and improvement areas.
+                </li>
+
+                <li>
+                    Developed Excel-based reports and dashboards using formulas,
+                    Pivot Tables, VLOOKUP/XLOOKUP, and data analysis techniques
+                    to improve reporting accuracy and efficiency.
+                </li>
+
+                <li>
+                    Monitored key business metrics and provided management with
+                    timely insights to support performance reviews and business
+                    decisions.
+                </li>
+
+                <li>
+                    Coordinated with branch teams and cluster management to
+                    collect, validate, and reconcile data, ensuring accurate
+                    and timely MIS reporting.
+                </li>
+
+                <li>
+                    Generated ad-hoc reports and analysis based on management
+                    requirements to identify business trends and operational
+                    performance gaps.
+                </li>
+
+                <li>
+                    Maintained data accuracy and consistency across multiple
+                    reports while ensuring timely submission of MIS reports
+                    to management.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Wipro -->
+    <div class="col-md-6">
+        <div class="resume-wrap ftco-animate">
+            <span class="date">2026 May - Present</span>
+
+            <h2>Team Lead - Data Analyst</h2>
+
+            <span class="position">WIPRO</span>
+
+            <p class="mt-4">
+                Leading data analysis and reporting activities, managing team
+                deliverables, and developing dashboards and MIS solutions using
+                Looker Studio, Google Sheets, SQL, and database technologies.
+            </p>
+
+            <ul>
+                <li>
+                    Leading a team of data analysts and coordinating daily
+                    activities, task allocation, workload management, and
+                    timely completion of deliverables.
+                </li>
+
+                <li>
+                    Designed and maintained interactive dashboards using
+                    Looker Studio to track KPIs, business performance,
+                    productivity, and operational metrics.
+                </li>
+
+                <li>
+                    Developed and maintained advanced Google Sheets reports
+                    using formulas, Pivot Tables, VLOOKUP/XLOOKUP, FILTER,
+                    QUERY, IF, SUMIFS, COUNTIFS, and other data analysis
+                    functions.
+                </li>
+
+                <li>
+                    Worked with SQL and databases to extract, transform,
+                    validate, and analyze large datasets for reporting and
+                    business requirements.
+                </li>
+
+                <li>
+                    Performed data cleaning, data validation, reconciliation,
+                    and quality checks to ensure accuracy and consistency
+                    across reports and dashboards.
+                </li>
+
+                <li>
+                    Prepared daily, weekly, and monthly MIS reports and
+                    performance dashboards for management and stakeholders,
+                    providing actionable insights into key business metrics.
+                </li>
+
+                <li>
+                    Collaborated with stakeholders and business teams to
+                    understand reporting requirements, identify data gaps,
+                    and deliver accurate analytical solutions.
+                </li>
+
+                <li>
+                    Monitored team performance, reviewed completed reports,
+                    performed quality checks, and provided guidance and
+                    technical support to team members.
+                </li>
+
+                <li>
+                    Automated repetitive reporting activities using Google
+                    Sheets, SQL queries, and dashboard solutions, helping
+                    improve reporting efficiency and reduce manual effort.
+                </li>
+
+                <li>
+                    Analyzed trends, variances, productivity metrics, and
+                    operational KPIs to identify performance gaps and support
+                    data-driven decision-making.
+                </li>
+
+                <li>
+                    Managed multiple priorities and ensured timely delivery
+                    of reports and analytical requirements while following
+                    defined quality and process standards.
+                </li>
+
+                <li>
+                    Created documentation for reporting processes, data
+                    sources, business rules, and standard operating procedures
+                    to improve consistency and knowledge sharing within
+                    the team.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<!-- ==============================
+     Certifications Section
+     ============================== -->
+
+
+
+<section class="ftco-section" id="certifications-section">
+
+    <div class="container">
+
+        <!-- Certifications Heading -->
+        <div class="row justify-content-center mb-5 pb-5">
+
+            <div class="col-md-10 heading-section text-center ftco-animate">
+
+                <h1 class="big-4">Certifications</h1>
+
+                <div class="underline"></div>
+
+                <p>
+                    Professional, technical and business certifications.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             CERTIFICATE 1
+             ========================= -->
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <div class="certificate-card ftco-animate">
+
+                    <div class="certificate-info">
+
+                        <span class="certificate-date">
+                            Jun 28, 2025
+                        </span>
+
+                        <h2>
+                            Business Analysis Foundations:
+                            Business Process Modeling
+                        </h2>
+
+                        <span class="certificate-issuer">
+                            LinkedIn Learning / IIBA
+                        </span>
+
+                        <div class="certificate-rating">
+                            ★★★★★
+                        </div>
+
+                    </div>
+
+                    <a href="images/Business analysis foundation.jpg"
+                       target="_blank">
+
+                        <img
+                            src="images/Business analysis foundation.jpg"
+                            alt="Business Analysis Foundations Certificate"
+                            class="certificate-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 CERTIFICATE 2
+                 ========================= -->
+
+            <div class="col-md-6">
+
+                <div class="certificate-card ftco-animate">
+
+                    <div class="certificate-info">
+
+                        <span class="certificate-date">
+                            Nov 18, 2025
+                        </span>
+
+                        <h2>
+                            Business Continuity Planning (BCP)
+                        </h2>
+
+                        <span class="certificate-issuer">
+                            Axis Bank
+                        </span>
+
+                        <div class="certificate-rating">
+                            ★★★★★
+                        </div>
+
+                    </div>
+
+                    <a href="images/Business continuty planning.jpg"
+                       target="_blank">
+
+                        <img
+                            src="images/Business continuty planning.jpg"
+                            alt="Business Continuity Planning Certificate"
+                            class="certificate-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             ROW 2
+             ========================= -->
+
+        <div class="row">
+
+            <!-- Certificate 3 -->
+
+            <div class="col-md-6">
+
+                <div class="certificate-card ftco-animate">
+
+                    <div class="certificate-info">
+
+                        <span class="certificate-date">
+                            Aug 01, 2023
+                        </span>
+
+                        <h2>
+                            Cybersecurity & Data Privacy at NVIDIA
+                        </h2>
+
+                        <span class="certificate-issuer">
+                            NVIDIA - Legal
+                        </span>
+
+                        <div class="certificate-rating">
+                            ★★★★★
+                        </div>
+
+                    </div>
+
+                    <a href="images/Cybersecurity & DATA Privacy certificate with NVIDIA.jpg"
+                       target="_blank">
+
+                        <img
+                            src="images/Cybersecurity & DATA Privacy certificate with NVIDIA.jpg"
+                            alt="Cybersecurity and Data Privacy Certificate"
+                            class="certificate-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Certificate 4 -->
+
+            <div class="col-md-6">
+
+                <div class="certificate-card ftco-animate">
+
+                    <div class="certificate-info">
+
+                        <span class="certificate-date">
+                            Jun 08, 2025
+                        </span>
+
+                        <h2>
+                            Data Analytics Essentials
+                        </h2>
+
+                        <span class="certificate-issuer">
+                            Cisco Networking Academy
+                        </span>
+
+                        <div class="certificate-rating">
+                            ★★★★★
+                        </div>
+
+                    </div>
+
+                    <a href="images/DATA Analyst.jpg"
+                       target="_blank">
+
+                        <img
+                            src="images/DATA Analyst.jpg"
+                            alt="Data Analytics Essentials Certificate"
+                            class="certificate-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             ROW 3
+             ========================= -->
+
+        <div class="row">
+
+            <!-- Certificate 5 -->
+
+            <div class="col-md-6">
+
+                <div class="certificate-card ftco-animate">
+
+                    <div class="certificate-info">
+
+                        <span class="certificate-date">
+                            Jan 23, 2026
+                        </span>
+
+                        <h2>
+                            GenAI for Business Analysts:
+                            Faster Insights
+                        </h2>
+
+                        <span class="certificate-issuer">
+                            Coursera
+                        </span>
+
+                        <div class="certificate-rating">
+                            ★★★★★
+                        </div>
+
+                    </div>
+
+                    <a href="images/GEN AI for business Analysis.jpg"
+                       target="_blank">
+
+                        <img
+                            src="images/GEN AI for business Analysis.jpg"
+                            alt="GenAI for Business Analysts Certificate"
+                            class="certificate-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Certificate 6 -->
+
+            <div class="col-md-6">
+
+                <div class="certificate-card ftco-animate">
+
+                    <div class="certificate-info">
+
+                        <span class="certificate-date">
+                            Jan 12, 2026
+                        </span>
+
+                        <h2>
+                            GenAI for Data Scientists
+                        </h2>
+
+                        <span class="certificate-issuer">
+                            Coursera
+                        </span>
+
+                        <div class="certificate-rating">
+                            ★★★★★
+                        </div>
+
+                    </div>
+
+                    <a href="images/GEN AI for Data Scientists.jpg"
+                       target="_blank">
+
+                        <img
+                            src="images/GEN AI for Data Scientists.jpg"
+                            alt="GenAI for Data Scientists Certificate"
+                            class="certificate-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             ROW 4
+             ========================= -->
+
+        <div class="row">
+
+            <!-- Certificate 7 -->
+
+            <div class="col-md-6">
+
+                <div class="certificate-card ftco-animate">
+
+                    <div class="certificate-info">
+
+                        <span class="certificate-date">
+                            Jan 11, 2026
+                        </span>
+
+                        <h2>
+                            Generative AI:
+                            Supercharge Your Product
+                            Management Career
+                        </h2>
+
+                        <span class="certificate-issuer">
+                            SkillUp / Coursera
+                        </span>
+
+                        <div class="certificate-rating">
+                            ★★★★★
+                        </div>
+
+                    </div>
+
+                    <a href="images/GEN AI Supercharge your product management career.jpg"
+                       target="_blank">
+
+                        <img
+                            src="images/GEN AI Supercharge your product management career.jpg"
+                            alt="Generative AI Product Management Certificate"
+                            class="certificate-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Certificate 8 -->
+
+            <div class="col-md-6">
+
+                <div class="certificate-card ftco-animate">
+
+                    <div class="certificate-info">
+
+                        <span class="certificate-date">
+                            Sep 15, 2025
+                        </span>
+
+                        <h2>
+                            Generative AI Foundations
+                            Certificate
+                        </h2>
+
+                        <span class="certificate-issuer">
+                            upGrad / Microsoft
+                        </span>
+
+                        <div class="certificate-rating">
+                            ★★★★★
+                        </div>
+
+                    </div>
+
+                    <a href="images/Generative AI certificate by Microsoft.jpg"
+                       target="_blank">
+
+                        <img
+                            src="images/Generative AI certificate by Microsoft.jpg"
+                            alt="Generative AI Foundations Certificate"
+                            class="certificate-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             ROW 5
+             ========================= -->
+
+        <div class="row">
+
+            <!-- Certificate 9 -->
+
+            <div class="col-md-6">
+
+                <div class="certificate-card ftco-animate">
+
+                    <div class="certificate-info">
+
+                        <span class="certificate-date">
+                            Jun 30, 2025
+                        </span>
+
+                        <h2>
+                            Managing Projects with
+                            Microsoft 365
+                        </h2>
+
+                        <span class="certificate-issuer">
+                            LinkedIn Learning
+                        </span>
+
+                        <div class="certificate-rating">
+                            ★★★★★
+                        </div>
+
+                    </div>
+
+                    <a href="images/Managing projects with microsoft 365.jpg"
+                       target="_blank">
+
+                        <img
+                            src="images/Managing projects with microsoft 365.jpg"
+                            alt="Managing Projects with Microsoft 365 Certificate"
+                            class="certificate-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Certificate 10 -->
+
+            <div class="col-md-6">
+
+                <div class="certificate-card ftco-animate">
+
+                    <div class="certificate-info">
+
+                        <span class="certificate-date">
+                            Jan 11, 2026
+                        </span>
+
+                        <h2>
+                            Product Management:
+                            Building AI-Powered Products
+                        </h2>
+
+                        <span class="certificate-issuer">
+                            SkillUp / Coursera
+                        </span>
+
+                        <div class="certificate-rating">
+                            ★★★★★
+                        </div>
+
+                    </div>
+
+                    <a href="images/Product management Building AI powered products.jpg"
+                       target="_blank">
+
+                        <img
+                            src="images/Product management Building AI powered products.jpg"
+                            alt="Product Management AI Powered Products Certificate"
+                            class="certificate-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             ROW 6
+             ========================= -->
+
+        <div class="row">
+
+            <!-- Certificate 11 -->
+
+            <div class="col-md-6">
+
+                <div class="certificate-card ftco-animate">
+
+                    <div class="certificate-info">
+
+                        <span class="certificate-date">
+                            Apr 26, 2021
+                        </span>
+
+                        <h2>
+                            Python
+                        </h2>
+
+                        <span class="certificate-issuer">
+                            GUVI
+                        </span>
+
+                        <div class="certificate-rating">
+                            ★★★★★
+                        </div>
+
+                    </div>
+
+                    <a href="images/python.jpg"
+                       target="_blank">
+
+                        <img
+                            src="images/python.jpg"
+                            alt="Python Certificate"
+                            class="certificate-img">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- Education Section -->
+<div class="row">
+    <h1 class="big-4">Education</h1>
+    <div class="underline"></div>
+</div>
+
+<br>
+
+
+<div class="row">
+
+    <!-- B.Tech -->
+    <div class="col-md-6">
+        <div class="resume-wrap ftco-animate">
+            <span class="date">2017 - 2020</span>
+
+            <h2>Bachelor of Technology</h2>
+
+            <span class="position">
+                QIS College of Engineering and Technology
+            </span>
+
+            <p class="mt-4">
+                Grade: First Class with Distinction.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Diploma -->
+    <div class="col-md-6">
+        <div class="resume-wrap ftco-animate">
+            <span class="date">2014 - 2017</span>
+
+            <h2>Diploma</h2>
+
+            <span class="position">
+                Prakasam Engineering College
+            </span>
+
+            <p class="mt-4">
+                Grade: First Class with Distinction.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are the Data Analytics projects on SQL, Python, Power BI & ML.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="https://github.com/avvarubhanurao/DATA-ANALYST-PROJECTS/blob/main/sales%20data%20counrty%20wise%20.png" class="block-20 zoom-effect" style="background-image: url('images/sales data counrty wise  (1).png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/avvarubhanurao/DATA-ANALYST-PROJECTS/blob/main/sales%20data%20counrty%20wise%20.png">Regional Sales Intelligence: Trends, Costs, and Customer Segmentation
+
+</a></h3>
+                <p>Created a Power BI dashboard to visualize sales, profit, and cost trends across countries, regions, and customer segments for strategic business analysis.</p>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/avvarubhanurao/DATA-ANALYST-PROJECTS/blob/main/Profit_Analysis.pdf" class="block-20 zoom-effect" style="background-image: url('images/Profit_Analysis (1)_page-0001.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="https://github.com/avvarubhanurao/DATA-ANALYST-PROJECTS/blob/main/Profit_Analysis.pdf">Profit Analysis Dashboard: Regional, Category, and Shipping Insights</a></h3>
+                <p>Analyzed sales and profitability data using Looker Studio, delivering a comprehensive dashboard  covering sales, quantity, and operational performance.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/avvarubhanurao/DATA-ANALYST-PROJECTS/blob/main/Credit%20Card%20Financial%20Dashboard-Customer.pdf" class="block-20 zoom-effect" style="background-image: url('images/Credit Card Financial Dashboard-Customer (3)_page-0001.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/avvarubhanurao/DATA-ANALYST-PROJECTS/blob/main/Credit%20Card%20Financial%20Dashboard-Customer.pdf">Customer Segmentation and Revenue Analysis for Credit Card Business</a></h3>
+                <p>Created a data-driven dashboard that reveals key revenue drivers across age, gender, salary group, and customer occupation using an interactive Power BI dashboard.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main">Sales Forecast- Time Series Forecasting</a></h3>
+				  <p>Used multiple machine learning models to forecast sales (retail store) and performed time series analysis.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb">Customer Segmentation using clustering model</a></h3>
+				  <p>Developed a ML model to give various recommendations of financial products &amp; services on target customer groups.</p>
+				</div>
+			  </div>
+			</div>
+		 </div>
+	  </div>
+    </section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		
+      </div>
+	
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+			<!-- <div class="container"> -->
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+						<br>
+						<p><a href="https://github.com/avvarubhanurao/DATA-ANALYST-PROJECTS" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Hyderabad, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+ 91 9533735125</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">avvarubhanukoteswararao@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="#">resumelink</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAAucJOndfR2csQLvn-LlYifj0TmQDiokkfBOc_2S2xY5c_w/viewform" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/avvarubhanukoteswararao/"><span class="icon-linkedin"></span></a></li>  
+					  
+			
+				      
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
